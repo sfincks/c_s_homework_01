@@ -5,13 +5,13 @@
 // 8 -> 2, 4, 6, 8
 
 System.Console.WriteLine("Введите первое число");
-int num = Convert.ToInt32(Console.ReadLine()); 
-for (int i = 1; i<=num ;i++)
-    if(i%2 == 0)
+int num = Convert.ToInt32(Console.ReadLine());
+for (int i = 1; i <= num; i++)
+    if (i % 2 == 0)
     {
-        System.Console.Write(i+", ");
+        System.Console.Write(i + ", ");
     }
-    else 
+    else
     {
         System.Console.Write("");
     }

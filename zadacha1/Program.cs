@@ -10,11 +10,11 @@ System.Console.WriteLine("Введите первое число:");
 int firstNumber = Convert.ToInt32(Console.ReadLine());
 System.Console.WriteLine("Введите второе число:");
 int secondNumber = Convert.ToInt32(Console.ReadLine());
-if(firstNumber>secondNumber)
+if (firstNumber > secondNumber)
 {
-    System.Console.WriteLine("max = "+ firstNumber + ", " + "min = " + secondNumber);
+    System.Console.WriteLine("max = " + firstNumber + ", " + "min = " + secondNumber);
 }
-else 
+else
 {
-    System.Console.WriteLine("max = "+ secondNumber + ", " + "min = " + firstNumber);
+    System.Console.WriteLine("max = " + secondNumber + ", " + "min = " + firstNumber);
 }

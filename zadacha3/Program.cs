@@ -6,12 +6,12 @@
 // 7 -> нет
 
 System.Console.WriteLine("Введите число чтобы узнать чётное оно или нет");
-int number = Convert.ToInt32(Console.ReadLine()); 
+int number = Convert.ToInt32(Console.ReadLine());
 if (number % 2 == 0)
 {
     System.Console.WriteLine("Число четное");
 }
 else if (number % 2 == 1)
 {
- System.Console.WriteLine("Число нечетное");   
+    System.Console.WriteLine("Число нечетное");
 }
