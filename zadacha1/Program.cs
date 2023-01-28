@@ -6,4 +6,15 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
-
+System.Console.WriteLine("Введите первое число:");
+int firstNumber = Convert.ToInt32(Console.ReadLine());
+System.Console.WriteLine("Введите второе число:");
+int secondNumber = Convert.ToInt32(Console.ReadLine());
+if(firstNumber>secondNumber)
+{
+    System.Console.WriteLine("max = "+ firstNumber + ", " + "min = " + secondNumber);
+}
+else 
+{
+    System.Console.WriteLine("max = "+ secondNumber + ", " + "min = " + firstNumber);
+}
